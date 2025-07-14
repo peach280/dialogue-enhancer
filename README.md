@@ -12,9 +12,11 @@ This project was built as a creative prototype inspired by [RouteVN](https://rou
 
 ## 🚀 Demo
 
-![Smart Dialogue Enhancer Screenshot](screenshot.png)
 
-> 🔗 [Live Demo](https://your-vercel-link.vercel.app)
+https://github.com/user-attachments/assets/7c781367-5f5e-40ce-a8c7-6dcfab20a969
+
+
+
 
 ---
 
