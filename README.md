@@ -1,16 +1,51 @@
-<<<<<<< HEAD
-# dialogue-enhancer
-=======
-# React + Vite
+# 🧠 Smart Dialogue Enhancer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mini AI-powered tool that rewrites user dialogue into different tones like **Friendly**, **Romantic**, or **Funny** — designed to help creators of visual novels and interactive stories write expressive, tone-matching dialogue faster.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Motivation
 
-## Expanding the ESLint configuration
+This project was built as a creative prototype inspired by [RouteVN](https://routevn.com), a platform for visual novel creation. Writing dialogue that resonates with the story's tone is often hard, and this tool aims to enhance that process using AI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 49affbd (Initial commit)
+---
+
+## 🚀 Demo
+
+![Smart Dialogue Enhancer Screenshot](screenshot.png)
+
+> 🔗 [Live Demo](https://your-vercel-link.vercel.app)
+
+---
+
+## ✨ Features
+
+- Input any dialogue line
+- Select a tone: Friendly, Romantic, Funny
+- Get a rewritten version using the **Mixtral-8x7B** model via **OpenRouter**
+- Built with product sense: supports visual storytelling workflows
+
+---
+
+## 🧱 Tech Stack
+
+### Frontend
+- React
+
+### Backend
+- Flask (Python)
+- OpenRouter API (using `mistralai/mixtral-8x7b-instruct`)
+
+---
+
+## 📦 Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/dialogue-enhancer.git
+cd dialogue-enhancer
+npm run frontend
+cd server
+source venv/bin/activate
+python app.py
